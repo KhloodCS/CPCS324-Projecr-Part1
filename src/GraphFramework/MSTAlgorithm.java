@@ -9,6 +9,15 @@
 package GraphFramework;
 
 //
-public class MSTAlgorithm {
+public abstract class MSTAlgorithm {
+       
+     //the result of the MST algorithms 
+     
+    Edge [] MSTResultList;
+    
+     //abstract method to override in the child class
+     
+    public abstract void displayResultingMST();
+    
 
 }
